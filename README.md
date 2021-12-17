@@ -1,14 +1,13 @@
-# Stencil API
-
-BOILERPLATE FROM : 
-NodeJS + MySQL - Boilerplate API with Email Sign Up, Verification, Authentication & Forgot Password
-
-For documentation and instructions see https://jasonwatmore.com/post/2020/09/08/nodejs-mysql-boilerplate-api-with-email-sign-up-verification-authentication-forgot-password
+# NODE-API-TEMPLATE
+An updated boilerplate for node-express apis + Mysql
 
 
 # To run locally: 
  - Type in ```npm start```
 
 # WARNING! You Need a DB running locally to get this project to run. 
-- Download XAMPP and set up phpmyadmin with a config file obtained from @Ooblek
+- Set one up with XAMPP and edit ```config.js``` with the right info to get things to run 
+
+# EMAILS
+- Enter your mail server info in the ```config.js``` to send verification emails. Can be replaced with a seperate auth provider like Cognito 
 
